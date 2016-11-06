@@ -18,10 +18,10 @@ public class mainClass {
 		q[1] = new Queue();
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		System.out
-				.print("enter the maximum process time of first class passenger(in minute(s)): ");
+				.print("enter the average length of service for first class passenger(in minute(s)): ");
 		ptime[1] = Integer.parseInt(br.readLine());
 		System.out
-				.print("enter the maximum process time of coach passenger(in minute(s)): ");
+				.print("enter the average length of service for coach passenger(in minute(s)): ");
 		ptime[0] = Integer.parseInt(br.readLine());
 		System.out
 				.print("enter the average arrival rate of first class passenger(persons per minute): ");
