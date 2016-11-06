@@ -63,8 +63,8 @@ public class mainClass {
 		int countf=f1.count+f2.count;
 		int total_count=countc+countf;
 		int max=Math.max(c1.maxTime, Math.max(c2.maxTime, Math.max(c3.maxTime, Math.max(f1.maxTime,f2.maxTime))));
-		System.out.println("average service time "+ (total_time/(total_count)));
-		System.out.println("maximum service time "+ max);
+		System.out.println("average waiting time "+ (total_time/(total_count)));
+		System.out.println("maximum waiting time "+ max);
 		System.out.println("number served by coach "+countc);
 		System.out.println("number served by first "+countf);
 		System.out.println("maximum coach queue length "+ cq.maxlength);
