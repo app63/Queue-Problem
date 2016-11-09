@@ -30,7 +30,7 @@ public class serviceStation extends Thread {
 					maxTime = time;
 				}
 				try {
-					sleep(time * 1000);
+				    sleep(time);
 				} catch (InterruptedException e) {
 
 				}
@@ -44,7 +44,7 @@ public class serviceStation extends Thread {
 						maxTime = time;
 					}
 					try {
-						sleep(time * 1000);
+					    sleep(time);
 					} catch (InterruptedException e) {
 					}
 				}
